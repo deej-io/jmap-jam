@@ -9,22 +9,22 @@ importers:
   .:
     devDependencies:
       '@changesets/cli':
-        specifier: ~2.29.7
+        specifier: 2.29.7
         version: 2.29.7(@types/node@22.18.10)
       '@prettier/plugin-oxc':
-        specifier: ~0.0.4
+        specifier: 0.0.4
         version: 0.0.4
       '@types/node':
-        specifier: ~22.18.10
+        specifier: 22.18.10
         version: 22.18.10
       oxlint:
-        specifier: ~1.22.0
+        specifier: 1.22.0
         version: 1.22.0(oxlint-tsgolint@0.2.0)
       oxlint-tsgolint:
-        specifier: ~0.2.0
+        specifier: 0.2.0
         version: 0.2.0
       prettier:
-        specifier: ~3.6.2
+        specifier: 3.6.2
         version: 3.6.2
 
   packages/jmap-jam:
@@ -37,16 +37,16 @@ importers:
         version: 4.41.0
     devDependencies:
       '@arethetypeswrong/core':
-        specifier: ~0.18.2
+        specifier: 0.18.2
         version: 0.18.2
       tsdown:
-        specifier: ~0.15.6
+        specifier: 0.15.6
         version: 0.15.6(@arethetypeswrong/core@0.18.2)(typescript@5.9.3)
       typescript:
-        specifier: ~5.9.3
+        specifier: 5.9.3
         version: 5.9.3
       vitest:
-        specifier: ~3.2.4
+        specifier: 3.2.4
         version: 3.2.4(@types/node@22.18.10)(jiti@2.6.1)
 
   packages/jmap-rfc-types:
@@ -56,10 +56,10 @@ importers:
         version: 4.41.0
     devDependencies:
       typescript:
-        specifier: ~5.9.3
+        specifier: 5.9.3
         version: 5.9.3
       vitest:
-        specifier: ~3.2.4
+        specifier: 3.2.4
         version: 3.2.4(@types/node@22.18.10)(jiti@2.6.1)
 
 packages:
